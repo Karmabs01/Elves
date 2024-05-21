@@ -55,24 +55,26 @@ function LanguageSelector({ ipDataCode, source }) {
           ))}
         </select>
       )} */}
-      <Box sx={{ minWidth: 150 }}>
-        <FormControl fullWidth>
-          <Select
-            id="languageSelect"
-            value={i18n.language}
-            onChange={changeLanguage}
-          >
-            {languageOptions.map((option) => (
-              <MenuItem
-                key={option.value}
-                value={option.value}>
-                <div class={option.value}></div>
-                {option.label}
-              </MenuItem>
-            ))}
-          </Select>
-        </FormControl>
-      </Box>
+      {source !== "partner1043" && (
+        <Box sx={{ minWidth: 150 }}>
+          <FormControl fullWidth>
+            <Select
+              id="languageSelect"
+              value={i18n.language}
+              onChange={changeLanguage}
+            >
+              {languageOptions.map((option) => (
+                <MenuItem
+                  key={option.value}
+                  value={option.value}>
+                  <div class={option.value}></div>
+                  {option.label}
+                </MenuItem>
+              ))}
+            </Select>
+          </FormControl>
+        </Box>
+      )}
     </div>
   );
 }
