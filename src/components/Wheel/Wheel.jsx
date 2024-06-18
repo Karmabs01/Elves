@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import Header from "../../dataBrands/Header";
-import logo from "../../../src/logo.png";
+import logo from "../../../src/log4.png";
 import plus from "../../../src/18plus.png";
 import layer from "../../../src/layer.png";
 import { Link } from "react-router-dom";

@@ -42,10 +42,10 @@ function TopBrands({
   const urlParams = new URLSearchParams(window.location.search);
   const brandValue = urlParams.get("brand");
 
-  const apiOld = "https://pickbonus.myawardwallet.com/api/brands/read.php";
-  const apiNew = "https://pickbonus.myawardwallet.com/api/brands/read2.php";
-  const api1043 = "https://pickbonus.myawardwallet.com/api/brands/read3.php";
-  const api1044 = "https://pickbonus.myawardwallet.com/api/brands/read4.php";
+  const apiOld = "https://bonusnumber1.com/api/brands/read.php";
+  const apiNew = "https://bonusnumber1.com/api/brands/read2.php";
+  const api1043 = "https://bonusnumber1.com/api/brands/read3.php";
+  const api1044 = "https://bonusnumber1.com/api/brands/read4.php";
 
   function shuffleArray(array) {
     const shuffledArray = array.slice(); // Создаем копию массива
@@ -172,7 +172,7 @@ function TopBrands({
                     <h3>{t("New")}</h3>
                     <a
                       target="_blank"
-                      href={`https://pickbonus.myawardwallet.com/${newUrl}L_enchanted-forest_1`}
+                      href={`https://topbon.us/${newUrl}L_enchanted-forest_1`}
                       className="cmn--btn2"
                     >
                       <span>{t("Show all")}</span>

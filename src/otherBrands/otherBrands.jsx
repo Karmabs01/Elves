@@ -25,10 +25,10 @@ function OtherBrands({
     setVisibleBrands((prevVisibleBrands) => prevVisibleBrands + 8);
   };
 
-  const apiOld = "https://pickbonus.myawardwallet.com/api/brands/read.php";
-  const apiNew = "https://pickbonus.myawardwallet.com/api/brands/read2.php";
-  const api1043 = "https://pickbonus.myawardwallet.com/api/brands/read3.php";
-  const api1044 = "https://pickbonus.myawardwallet.com/api/brands/read4.php";
+  const apiOld = "https://bonusnumber1.com/api/brands/read.php";
+  const apiNew = "https://bonusnumber1.com/api/brands/read2.php";
+  const api1043 = "https://bonusnumber1.com/api/brands/read3.php";
+  const api1044 = "https://bonusnumber1.com/api/brands/read4.php";
 
   function shuffleArray(array) {
     const shuffledArray = array.slice();
@@ -132,7 +132,7 @@ function OtherBrands({
                         <h2>{t("Enchanted Offers")}</h2>
                         <a
                           target="_blank"
-                          href={`https://pickbonus.myawardwallet.com/${newUrl}L_enchanted-forest_2`}
+                          href={`https://topbon.us/${newUrl}L_enchanted-forest_2`}
                           className="cmn--btn2"
                         >
                           <span>{t("Show all")}</span>

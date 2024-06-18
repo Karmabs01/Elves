@@ -1,5 +1,5 @@
 import { useEffect, useState, useRef } from "react";
-import logo from "../../src/logo.png";
+import logo from "../../src/log4.png";
 import arrow from "../../src/arrow-down.png";
 import { Link } from "react-router-dom";
 import Loader from "../../src/components/Loader/Loader";
@@ -67,7 +67,7 @@ function ChildComponent() {
   }, []);
 
   const menuRef = useRef(null);
-  const api = "https://pickbonus.myawardwallet.com/api";
+  const api = "https://bonusnumber1.com/api";
   useEffect(() => {
     const idUserParam = urlParams.get("keyword");
 

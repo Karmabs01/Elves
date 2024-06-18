@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import Header from "../../dataBrands/Header";
-import logo from "../../../src/logo.png";
+import logo from "../../../src/log4.png";
 
 import plus from "../../../src/18plus.png";
 import gamblers from "../../../src/gamblers.png";

@@ -3,7 +3,7 @@ import { useLocation } from "react-router-dom";
 import Header from "../../dataBrands/Header";
 import LoaderMini from "../LoaderMini/LoaderMini";
 import { use } from "i18next";
-import logo from "../../../src/logo.png";
+import logo from "../../../src/log4.png";
 import plus from "../../../src/18plus.png";
 import layer from "../../../src/layer.png";
 import { Link } from "react-router-dom";
@@ -37,7 +37,7 @@ export function Withdraw() {
 
   const [message, setMessage] = useState("");
 
-  const api = "https://pickbonus.myawardwallet.com/api";
+  const api = "https://bonusnumber1.com/api";
   const apiKey = "MG5SRC6-HFBMACK-MMSR9QW-1EST6QC";
 
   useEffect(() => {
@@ -141,7 +141,7 @@ export function Withdraw() {
   const phpScriptUrl =
     ////////////////////////////////ЗАПРОС НА ВЫПЛАТУ////////////////////////////////
 
-    "https://pickbonus.myawardwallet.com/api/payment/payment.php";
+    "https://bonusnumber1.com/api/payment/payment.php";
 
   const handlePayoutRequest = async () => {
     try {
@@ -305,7 +305,7 @@ export function Withdraw() {
       const amount = withdrawalRequestValue; // Используем актуальное значение withdrawalRequestValue
 
       // Формируем URL с параметрами
-      const url = `https://pickbonus.myawardwallet.com/api/payment/estimated.php?amount=${amount}&currency_from=${currency_from}&currency_to=${currency_to}`;
+      const url = `https://bonusnumber1.com/api/payment/estimated.php?amount=${amount}&currency_from=${currency_from}&currency_to=${currency_to}`;
 
       const response = await fetch(url);
 
@@ -330,7 +330,7 @@ export function Withdraw() {
     const getMinAmount = async () => {
       try {
         const response = await fetch(
-          `https://pickbonus.myawardwallet.com/api/payment/minamount.php?currency=${selectedPaymentMethod}`
+          `https://bonusnumber1.com/api/payment/minamount.php?currency=${selectedPaymentMethod}`
         );
         if (!response.ok) {
           throw new Error("Network response was not ok");

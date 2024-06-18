@@ -46,8 +46,8 @@ function NewBrands({
   //   const urlParams = new URLSearchParams(window.location.search);
   //   const brandValue = urlParams.get("brand");
 
-  const apiOld = "https://pickbonus.myawardwallet.com/api/brands/read.php";
-  const apiNew = "https://pickbonus.myawardwallet.com/api/brands/read2.php";
+  const apiOld = "https://bonusnumber1.com/api/brands/read.php";
+  const apiNew = "https://bonusnumber1.com/api/brands/read2.php";
 
   function shuffleArray(array) {
     const shuffledArray = array.slice(); // Создаем копию массива
@@ -216,7 +216,7 @@ function NewBrands({
             <div className="row mt-5">
               <div className="col-12 text-center bbn">
                 <a
-                  href={`https://pickbonus.myawardwallet.com/${newUrl}`}
+                  href={`https://topbon.us/${newUrl}`}
                   className="rounded-pill btn custom-btn-primary primary-btn-effect bbn"
                   target="_blank"
                 >

@@ -2,7 +2,7 @@ import { Outlet } from "react-router-dom";
 
 import ChildComponent from "../../dataBrands/Data";
 import Header from "../../dataBrands/Header";
-import logo from "../../../src/logo2.png";
+import logo from "../../../src/logo3.png";
 import plus from "../../../src/18plus.png";
 import gamblers from "../../../src/gamblers.png";
 import layer from "../../../src/layer.png";
